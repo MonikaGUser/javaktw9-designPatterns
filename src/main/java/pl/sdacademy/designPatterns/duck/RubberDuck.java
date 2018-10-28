@@ -39,4 +39,20 @@ public class RubberDuck implements Duck {
     public Integer age() {
         return new Random().nextInt(1000)+10;
     }
+
+    @Override
+    public DuckEgg layEgg() {
+        return null;
+    }
+
+    @Override
+    public void walkToDuckCoop(DuckCoop coop) {
+        System.out.println("Nope");
+    }
+
+    @Override
+    public void notify(DuckEgg egg) {
+        System.out.println("Ikkkkk ikkkk");
+
+    }
 }

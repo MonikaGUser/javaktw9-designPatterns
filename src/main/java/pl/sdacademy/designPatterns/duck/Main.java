@@ -31,5 +31,10 @@ DuckEgg egg = builder.build();
         farmer.askVet();
         System.out.println("==============");
         farmer.askVet();
+        DuckCoop duckCoop = new DuckCoop();
+        mallardDuck.walkToDuckCoop(duckCoop);
+        greenWingedTealDuck.walkToDuckCoop(duckCoop);
+        mallardDuck.layEgg();
+
     }
 }
